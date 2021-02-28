@@ -14,7 +14,7 @@ for guessing_times in range(1, 6):
         elif answer > secret_number:
             print("Your number is too high")
         else:
-            break
+            break  # situation when player has guessed the correct number
     except ValueError:
         print("Please write only numbers")
 if answer == secret_number:
